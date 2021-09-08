@@ -147,10 +147,10 @@ class MySqlClient(DataBaseClient):
 
 # if __name__ == "__main__":
 #     type0 = 'oracle'
-#     host = '10.11.170.84'
-#     port = '1521'
-#     username = 'system'
-#     password = 'oracle'
+#     host = ''
+#     port = ''
+#     username = ''
+#     password = ''
 #     sid = 'orcl'
 #     db = ''
 #     client = OracleDbClient(f'{host}', f'{port}', f'{username}', f'{password}')
