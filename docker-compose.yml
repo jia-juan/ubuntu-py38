@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+
+  jupyter:
+    restart: always
+    build: .
+    command: bash -c "jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --port 8888"
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - jupyter:/var/lib/jupyter/
+
+volumes:
+  jupyter:

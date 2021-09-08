@@ -1,2 +1,8 @@
-# ubuntu-py38
-Build python3.8 in Ubuntu20.04 docker container.
+### 環境說明
+
+```bash
+docker-compose up -d -f docker-compose.yml
+```
+
+[http://127.0.0.1:8888](http://127.0.0.1:8888/)
+
