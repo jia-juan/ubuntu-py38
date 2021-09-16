@@ -163,3 +163,6 @@ webencodings==0.5.1
 widgetsnbextension==3.5.1
 xlrd==2.0.1
 zope.interface==5.4.0
+tensorflow
+keras
+lightgbm
